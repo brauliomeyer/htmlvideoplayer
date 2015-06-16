@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Video Player</title>
+    <link rel="stylesheet" type="text/css" href="view/css/player.css">    
+    <script type="text/javascript" src="controller/js/player.js"></script>
+</head>
+<body>
+    <!-- <img id="special-button" src="view/img/play.png"> -->
+    <div id="player">       
+        <div id="video-container">  
+           <div id="screen">
+               <img id="screen-button" src="view/img/play.png" alt="play_button">
+           </div>             
+            <video id="video" poster="view/thumbnail/thumbnail.png">
+            <source src="view/video/Gandhi_vs_Martin_Luther_King_Jr.mp4">            
+                            
+    <a href="http://downloads.info/windows/multimedia/video-player/html5-video-player.html">It seems that your browser does not support the HTML5 video tag. Update it!</a>
+            </video>
+        </div>                        
+
+        <div id="pbar-container">
+            <div id="pbar"></div>
+        </div>
+    
+        <div id="buttons-container">
+            <img alt="play-button" id="play-button" src="view/img/play.png">
+            <div id="time-field">0:00 / 0:00</div>
+            
+            <img alt="sound-button" id="sound-button" src="view/img/sound.png">
+            <div id="sbar-container">
+                <div id="sbar"></div>
+            </div>
+            <img alt="fullscreen-button" id="fullscreen-button" src="view/img/fullscreen.png">
+        </div>    
+    </div>        
+</body>
+</html>
